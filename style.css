@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,700;1,300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: blanchedalmond;
+    font-family: 'Roboto', sans-serif;
+}
+.main{
+    width: 40vw;
+    margin-left: 30%;
+    margin-top: 5%;
+    height: 60vh;
+    background-color: olivedrab;
+}
+.front{
+    background-color: white;
+    padding: 20px;
+}
+.front h2{
+    color: aqua;
+}
+.front h4{
+    color: rgb(125, 238, 12);
+}
+.front p{
+    color: gray ;
+}
+.bottom{
+    display: flex;
+    align-items: center;
+    /* justify-content: space-around; */
+    flex-wrap: wrap;
+    padding: 10px;
+}
+.left{
+    background-color: #00afb9;
+    color: #fff;
+    height: 212px;
+    padding: 15px;
+    margin-top: -11px;
+    margin-left: -10px;
+    /* width: 250px; */
+}
+.left button{
+    background-color: chartreuse;
+    color: #fff;
+    font-size: 15px;
+    width: 220px;
+    height: 40px;
+    border-radius: 5px;
+    border-style: none;
+    
+}
+.left h5 span{
+    font-size: 30px;
+}
+.right{
+    background-color: #2ec4b6;
+    color: rgb(243, 236, 236);
+    padding: 20px;
+    height: 212px;
+    width: 284px;
+    font-size: 15px;
+    margin-top: -10px;
+    margin-right: -17px;
+    /* margin-left: -1px; */
+    
+}
+.right p{
+    padding: 5px;
+    margin-top: -6px;
+}
+@media only screen and (max-width:800px) {
+    .main{
+        height: 105vh;
+    }
+    .left{
+        /* margin-left: 10px; */
+        margin-right: -10px;
+        padding:0px 50px;
+    }
+    .left button{
+        font-size: 15px;
+        width: 100px;
+        margin-left: 40px;
+    }
+    .right{
+       
+       margin-right: 20px;
+       margin-left: -10px;
+        width: 65vw;
+        margin-right: -10px;
+    }
+}
+@media only screen and (max-width:1000px) {
+    body{
+        background-color: red;
+    }
+    .main{
+        height: 105vh;
+    }
+    .left{
+        /* margin-left: 10px; */
+        margin-right: -10px;
+        padding:0px 83px;
+    }
+    .left button{
+        font-size: 15px;
+        width: 100px;
+        margin-left: 40px;
+    }
+    .right{
+       
+       margin-right: 20px;
+       margin-left: -10px;
+        width: 65vw;
+        margin-right: -10px;
+    }
+}
